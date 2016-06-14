@@ -1,5 +1,5 @@
 # fengshui-api
-Documentation and Samples for the Official Fengshui REST API. https://fengshui-api.com/
+Documentation and Samples for the Fengshui REST API. https://fengshui-api.com/
 
 ## Available calculators
 | Id | Name | Function | Arguments
