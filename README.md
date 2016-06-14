@@ -4,7 +4,7 @@ Documentation and Samples for the Fengshui REST API. https://fengshui-api.com/
 ## Available calculators
 | Id | Name | Function | Arguments
 |----|------|----------------------|---------------
- 1 | KUA number | findKuaNumber() | $year, $month, $day, $gender
+ 1 | KUA number | findKuaNumber | $year, $month, $day, $gender
  2 | Chineese Sign of the Year | findChineseSignOfYear | $year, $month, $day
  3 | Chineese Sign of the Month | findChineseSignOfMonth | $year, $month, $day 
  4 | Chineese Sign of the Day | findChineseSignOfDay | $year, $month, $day
