@@ -27,7 +27,7 @@ Documentation and Samples for the Fengshui REST API. https://fengshui-api.com/
 ### Available options 
 | name | description
 |------|------------
-kua | range ( 1-9 )
+kua | range (1-9)
 gender | 0-boy, 1-girl
 year | from 1890 to 2100
 month | 1 - 12
@@ -59,7 +59,7 @@ facing | **in getFlyingStar function** [ 0 => 'N1', 1 => 'N2' , 2 => 'N3', 3 => 
 
 ### Chinese Zodiac sign
 
-##### Zodiak sign generated based on birth date (date range: 1925-2067)
+##### Zodiak sign generated based on birth date (date range: 1890-2100)
 ```php
   https://fengshui-api.com/api/v1/findChineseSignOfYear?token=xxxx&year=2013&month=8&day=2&gender=1
 ```
@@ -67,6 +67,18 @@ facing | **in getFlyingStar function** [ 0 => 'N1', 1 => 'N2' , 2 => 'N3', 3 => 
 ##### reply:
 ```json
   {"status":"ok","result":"Snake"}
+```
+
+### Child gender
+
+##### Child gender $age - the age of the child's mother, $month - Month To Get Pregnant (1-january)
+```php
+  https://fengshui-api.com/api/v1/getChildGender?token=xxxx&age=30&month=1
+```
+
+##### reply:
+```json
+  {"status":"ok","result":"boy"}
 ```
 
 ### Flying Star
