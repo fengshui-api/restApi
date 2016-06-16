@@ -50,7 +50,7 @@ facing | **in getFlyingStar function** [ 0 => 'N1', 1 => 'N2' , 2 => 'N3', 3 => 
 
 ##### Number generated based on birth date and gender (Date range: 1890-2100), gender type: 0-male, 1-female
 ```php
-  https://fengshui-api.com/api/v1/findKuaNumber?token=xxxx&year=2013&month=8&day=2&gender=0
+  https://fengshui-api.com/api/v1/findKuaNumber?token=<your private server key>&year=2013&month=8&day=2&gender=0
 ``` 
 ##### reply:
 ```json
@@ -61,7 +61,7 @@ facing | **in getFlyingStar function** [ 0 => 'N1', 1 => 'N2' , 2 => 'N3', 3 => 
 
 ##### Zodiak sign generated based on birth date (date range: 1890-2100)
 ```php
-  https://fengshui-api.com/api/v1/findChineseSignOfYear?token=xxxx&year=2013&month=8&day=2&gender=1
+  https://fengshui-api.com/api/v1/findChineseSignOfYear?token=<your private server key>&year=2013&month=8&day=2&gender=1
 ```
 
 ##### reply:
@@ -73,7 +73,7 @@ facing | **in getFlyingStar function** [ 0 => 'N1', 1 => 'N2' , 2 => 'N3', 3 => 
 
 ##### Child gender $age - the age of the child's mother, $month - Month To Get Pregnant (1-january)
 ```php
-  https://fengshui-api.com/api/v1/getChildGender?token=xxxx&age=30&month=1
+  https://fengshui-api.com/api/v1/getChildGender?token=<your private server key>&age=30&month=1
 ```
 
 ##### reply:
@@ -107,7 +107,7 @@ Id | Facing | Id | Facing | Id | Facing
 ###### For example. If house was built in 2005 year ($period = 7) with windows facing the NE2 ($facing = 4).
 
 ```php
-  https://fengshui-api.com/api/v1/getFlyingStar?token=xxxxx&period=6&facing=4
+  https://fengshui-api.com/api/v1/getFlyingStar?token=<your private server key>&period=7&facing=4
 ```
 
 ##### reply:
