@@ -117,4 +117,4 @@ Id | Facing | Id | Facing | Id | Facing
 
 #### Here is a graphical representation of the table:
 
-![](https://fengshui-api.com/images/github/flying_star_example.png)
+![Flying Star example](https://fengshui-api.com/images/github/flying_star_example.png)
