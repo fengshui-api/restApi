@@ -34,7 +34,7 @@ month | 1 - 12
 day | 1 - 31
 hour | 0 - 23
 minutes | 0-59
-dimension | in milimeters from 0
+dimension | in milimeters from 1
 age | range ( 18-45 )
 signs | [ 1 => 'Ox', 2 => 'Tiger', 3 => 'Rabbit', 4 => 'Dragon', 5 => 'Snake', 6 => 'Horse', 7 => 'Goat', 8 => 'Monkey', 9 => 'Rooster', 10 => 'Dog', 11 => 'Pig', 12 => 'Rat' ]
 period | **in getFlyingStar function** [ 0 => '1864-1883', 1 => '1884-1903', 2 => '1904-1923', 3 => '1924-1943', 4 => '1944-1963', 5 => '1964-1983', 6 => '1984-2003', 7 => '2004-2023', 8 => '2024-2043' ]
