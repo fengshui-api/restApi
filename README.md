@@ -16,13 +16,13 @@ Documentation and Samples for the Fengshui REST API. https://fengshui-api.com/
 10 | Love Compatibility | findLoveCompatibility | $year, $month, $day, $year2, $month2, $day2
 11 | Bussiness compatibility | findBusinessCompatibility | $year, $month, $day, $year2, $month2, $day2
 12 | Sign Compatibility | findSignCompatibility | $sign, $sign2
-13 | Lucky dimension | getLuckyDimensions | $dimension
-14 | Child gender | getChildGender | $age, $month
-15 | Four Best Directions | getFourBestDirections | $kua, $gender
+13 | Lucky dimension | findLuckyDimensions | $dimension
+14 | Child gender | findChildGender | $age, $month
+15 | Four Best Directions | findFourBestDirections | $kua, $gender
 16 | Four Worst Directions | getFourWorstDirections | $kua, $gender
-17 | Lo Shu | getOwnLoShu | $year, $month, $day
-18 | Flying star | getFlyingStar | $period, $facing
-19 | Eight mansions | getEightMansions | $facing
+17 | Lo Shu | findOwnLoShu | $year, $month, $day
+18 | Flying star | findFlyingStar | $period, $facing
+19 | Eight mansions | findEightMansions | $facing
 
 ### Available options 
 | name | description
