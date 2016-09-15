@@ -23,6 +23,7 @@ Documentation and Samples for the Fengshui REST API. https://fengshui-api.com/
 17 | Lo Shu | findOwnLoShu | $year, $month, $day
 18 | Flying star | findFlyingStar | $period, $facing
 19 | Eight mansions | findEightMansions | $facing
+20 | Four Pillars | findFourPillars | $year, $month, $day, $hour, $minutes, $gender
 
 ### Available options 
 | name | description
@@ -117,4 +118,4 @@ Id | Facing | Id | Facing | Id | Facing
 
 #### Here is a graphical representation of the table:
 
-<img src="http://fengshui-api.com/images/github/example_flying_star.png" />
+<img src="https://fengshui-api.com/images/github/example_flying_star.png" />
